@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  background: rgb(220, 231, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.qr_card {
+  background-color: rgb(252, 253, 253);
+  max-width: 270px;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 1px 1px 10px rgb(110, 131, 146);
+}
+
+img {
+  max-width: 270px;
+  border-radius: 0.6rem;
+}
+
+.qr_desc {
+  padding: 0rem 0.8rem 0rem 0.8rem;
+}
+
+p {
+  font-size: 0.9rem;
+  color: rgb(101, 99, 99);
+}
+
+.attribution {
+  padding: 1rem;
+}
